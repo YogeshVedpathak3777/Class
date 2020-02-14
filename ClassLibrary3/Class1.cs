@@ -11,7 +11,20 @@ namespace ClassLibrary3
         int a = 2;
         int b = 3;
         int c = 4;
-        int add = 8;
+        int add;
         int abc = 10;
+         
+        /// <summary>
+        /// Addition of two numbers
+        /// </summary>
+        /// <returns></returns>
+        public int Addition()
+        {
+            string result = string.Empty;
+
+            add = a + b;
+
+            return add;
+        }
     }
 }
