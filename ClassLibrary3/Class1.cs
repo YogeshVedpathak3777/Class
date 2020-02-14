@@ -18,13 +18,21 @@ namespace ClassLibrary3
         /// Addition of two numbers
         /// </summary>
         /// <returns></returns>
-        public int Addition()
+        public int Addition(int a , int b)
         {
             string result = string.Empty;
 
             add = a + b;
 
             return add;
+        }
+
+        public static void main (string[] args)
+        {
+            Class1 objclass = new Class1();
+            {
+                objclass.Addition(5,2);
+            }
         }
     }
 }
